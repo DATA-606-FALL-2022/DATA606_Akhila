@@ -14,3 +14,10 @@ Suicides have become increasingly concerning and have received a lot of attentio
 * Some of the columns are numerical types which include GDP per capita, HDI for year, suicides_no, while others like country, age, sex, generation etc. are categorical. 
 * Unit of analysis for our project would be countries. Over 100 countires would be analyzed.
 * We will be using GDP per capita , HDI, age, sex, generation in our analysis.
+* Many data mining techniques will be utilized to uncover hidden trends in the dataset and determine the correlation between variables, as well as plot multiple graphs to uncover trends in suicide rates and identify the many causes that contribute to suicide.
+* K Nearest Neighbor, Decision Tree Regression, Random Forest Regression, XGBoost Regression and Multilayer Perceptrons are the models I plan on using.
+* The Evaluation Metrics used would be accuracy and RMSE scores. 
+## Outcomes intended to achieve 
+* This analysis is aimed at explaining how different machine learning algorithms can be used in predicting suicide rates based on relevant factors collected in the dataset.
+* The analysis carried out will also provide knowledge about areas of improvement to the government and other organizations working towards suicide prevention and counselling so that effective steps can be taken.
+* 
