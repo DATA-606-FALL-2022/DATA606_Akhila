@@ -26,70 +26,19 @@ Now we will train multiple machine learning models on our dataset and utilize va
 The dataset has been taken from Kaggle. It has 27,820 rows with 12 columns. Some of the columns are numerical types which include GDP per capita, HDI for year, suicides_no, while others like country, age, sex, generation etc. are categorical. It includes data from over 100 countries from 1985 to 2016.
 ## Evaluation Metrics
 The Evaluation Metrics used are accuracy and RMSE scores. Accuracy is a common evaluation metric for classification problems. It is the number of correct predictions made as a ratio of all predictions made. RMSE is one of the most widely used measures for assessing the precision of continuous data. Because RMSE gives large errors a higher weight than MAE, it should be more useful when large errors are undesirable.
-![image](https://user-images.githubusercontent.com/94312082/206782875-4a052dfa-f989-4fe8-8609-351dc126fa4a.png)
 Since XGBoost Regression has the highest accuracy and lowest RMSE, it can be considered the best model.
-## Experimental Results
-Below Visualizations are performed as part of EDA,
-
-![image](https://user-images.githubusercontent.com/94312082/206783651-1068ce7b-8e04-4f8f-a7f1-9230824e58c0.png)
-
-We began by creating a bar graph depicting the number of suicides per 100,000 persons. It also shows the gender of the individual and the distribution of different age groups. One tendency that stands out is the significantly larger ratio of males to females who commit suicide. Suicide is most common in the 35-54 year old age group. Another surprising result is that women over the age of 75 are more likely to commit suicide, reversing a previously observed tendency.
-
-![image](https://user-images.githubusercontent.com/94312082/206783680-241bb435-e491-4b6a-9d44-9e3da4b8f2b6.png)
-
-Above bar graph shows the gender of the individual and the distribution of different generations. Even here , ratio of males to females who commit suicide is significantly higher. Suicide is most common in the Boomers followed by Silent generation. Generation Z has the lowest suicides.
-![image](https://user-images.githubusercontent.com/94312082/206784665-944e1294-65be-4a4f-8821-78d9905aa8cc.png)
-
-This plot shows the average suicides per 100k population from 1985 to 2016. It can be observed that 1995 has the highest suicide rates.
-
-![image](https://user-images.githubusercontent.com/94312082/206785144-27b6ca9e-7710-41f2-ad4d-2683bef79955.png)
-
-The annual trend in the number of suicides is examined.  As shown in the graph below, suicide rates have consistently increased over time. After a few dips in 1997 and a continuous reduction from 2002 to 2008, the rate increases and then drops from 2009 to 2015.
-
-![image](https://user-images.githubusercontent.com/94312082/206785364-2dd710ce-e119-4cf1-96c3-7880d3d1b186.png)
-
-The heatmap shows relationship between various attributes. Population and gdp_for_year have a strong relationship. Suicides_no and Population are also strongly correlated.
-## MODEL TRAINING AND EVALUATION 
-
-Our datasets were divided into three categories: training, testing, and validation. Our Machine Learning algorithms are K Nearest Neighbor, Decision Tree, Random Forest, XGBoost, and Multilayer Perceptrons (Deep Learning). 
+## Model Training and Evaluation 
+Our Machine Learning algorithms are K Nearest Neighbor, Decision Tree, Random Forest, XGBoost, and Multilayer Perceptrons (Deep Learning). Below are the accuracies and RMSE's of each model.
 
 K Nearest Neighbor Regression : Accuracy - 0.771, RMSE- 0.279
 
-![image](https://user-images.githubusercontent.com/94312082/206795324-b169188f-dfbd-43ab-ab7c-58bc5dd4be71.png)
-
-![image](https://user-images.githubusercontent.com/94312082/206795336-def2a30b-5fa4-4303-ad29-a042f415c5e6.png)
-
-The above scatter plot shows the true vs predicted values. The line graph shows the training vs testing accuracy. Overfitting is seen by the difference in performance between the training and testing sets. The performance isn't as good, we can move on to the next models.
-
 Decision Tree Regression : Accuracy - 0.967, RMSE- 0.105
-
-![image](https://user-images.githubusercontent.com/94312082/206795996-a7a2888b-03c0-4817-8898-9231c4f6fa1a.png)
-
-![image](https://user-images.githubusercontent.com/94312082/206796011-977168bb-743d-440e-b248-8a864c09c48b.png)
-
-Above scatter plot shows the true vs predicted values. The line graph shows the training vs testing accuracy. The performance of the model has considerably increased when compared to K Nearest Neighbor Regression.
 
 Random Forest Regression - Accuracy - 0.988, RMSE- 0.063
 
-![image](https://user-images.githubusercontent.com/94312082/206799770-3ab6efac-705a-48e9-a08c-68cc400d3864.png)
-
-![image](https://user-images.githubusercontent.com/94312082/206799787-49d49225-3e6f-45d9-a505-ac3ebb641a87.png)
-
-Above scatter plot shows the true vs predicted values. The line graph shows the training vs testing accuracy. The random forest achieves a 98.9 percent accuracy, which is superior to K nearest or decision tree models.
-
 XG Boost Regression - Accuracy - 0.997, RMSE- 0.029
 
-![image](https://user-images.githubusercontent.com/94312082/206799924-16be0a02-8ab7-4f71-91ef-99c4cd54db87.png)
-
-![image](https://user-images.githubusercontent.com/94312082/206799943-caf5b59f-14ee-4df4-bd23-e2d39c593eb0.png)
-
-Below scatter plot shows the true vs predicted values. The line graph shows the training vs testing accuracy. The XGBoost Regression has demonstrated the highest accuracy and least RMSE so far of 0.997 and 0.029 respectively.
-
 Multilayer Perceptrons : Deep Learning - Accuracy - 0.887, RMSE- 0.195
-
-![image](https://user-images.githubusercontent.com/94312082/206800351-73737b76-356c-450a-95aa-bc7294802d48.png)
-
-This model gave us an accuracy of 0.887 which is lower compared to XGBoost regression.
 
 # RESULTS DISCUSSION
 
@@ -105,7 +54,7 @@ This analysis was aimed at explaining how different machine learning algorithms 
 * Some statistical tests- hypothesis testing can be performed which can extract valuable insights.
 * Sentiment Analysis can be used to figure out in which social media people feel more free to talk about their mental health.
 
-REFERENCES
+# REFERENCES
 
 Boudreaux, E. D., Rundensteiner, E., Liu, F., Wang, B., Larkin, C., Agu, E., Ghosh, S., Semeter, J., Simon, G., & Davis-Martin, R. E. (2021). Applying Machine Learning Approaches to Suicide Prediction Using Healthcare Data: Overview and Future Directions. Frontiers in psychiatry, 12, 707916. https://doi.org/10.3389/fpsyt.2021.707916
 
