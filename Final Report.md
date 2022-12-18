@@ -2,6 +2,7 @@
 ![1_sldzYWPPlz08SGK61VRpqA](https://user-images.githubusercontent.com/94312082/190874958-e7062bd6-c402-48ad-a7d5-e83d995dd169.jpeg)
 
 Link to youtube video - https://www.youtube.com/watch?v=hXhDTA4ZKCE
+
 Link to PPT - https://github.com/sAKHILAREDDY/DATA606_Akhila/blob/main/Suicide%20Rate%20Prediction.pptx
 
 # INTODUCTION
