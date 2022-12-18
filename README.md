@@ -1,6 +1,13 @@
 # DATA606_Akhila
 
 # About Dataset
+
+Dataset link : https://raw.githubusercontent.com/sAKHILAREDDY/DATA606_Akhila/main/Suicide%20Rates%20Overview%201985%20to%202016%20Data.csv
+
+PPT link : https://github.com/sAKHILAREDDY/DATA606_Akhila/blob/main/Suicide%20Rate%20Prediction.pptx
+
+Youtube video link : https://youtu.be/hXhDTA4ZKCE
+
 Content : 
 
 This compiled dataset pulled from four other datasets linked by time and place, and was built to find signals correlated to increased suicide rates among different cohorts globally, across the socio-economic spectrum.
@@ -19,4 +26,4 @@ Inspiration :
 
 Suicide Prevention.
 
-Link to the data set : https://raw.githubusercontent.com/sAKHILAREDDY/DATA606_Akhila/main/Suicide%20Rates%20Overview%201985%20to%202016%20Data.csv
+
