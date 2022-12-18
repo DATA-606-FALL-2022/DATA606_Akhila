@@ -1,5 +1,9 @@
 # Machine Learning Techniques in Suicide Rate Prediction
 ![1_sldzYWPPlz08SGK61VRpqA](https://user-images.githubusercontent.com/94312082/190874958-e7062bd6-c402-48ad-a7d5-e83d995dd169.jpeg)
+
+Link to youtube video - https://www.youtube.com/watch?v=hXhDTA4ZKCE
+Link to PPT - https://github.com/sAKHILAREDDY/DATA606_Akhila/blob/main/Suicide%20Rate%20Prediction.pptx
+
 # INTODUCTION
 Suicides have become increasingly concerning and have received a lot of attention in today's society. Suicides are regarded to be most frequently caused by depression. Other factors to consider include economic factors, societal factors and incurable diseases. Chatbots based on AI have been developed to prevent people from committing suicide, although their accuracy is only about 75%. To reduce the number of suicide attempts in the future, we must employ machine learning algorithms to accurately anticipate suicide attempts. Preliminary data analysis would reveal suicide numbers as well as the relationship between various factors and the amount to which they contribute. To better comprehend the trends in suicide attempts, a graphical representation would be presented. Several Python libraries will be used, and multiple models will be constructed to see which model has the least error. This research investigates how suicide rates and the factors that influence them can be predicted using machine learning algorithms. 
 # IMPORTANCE OF CURRENT STUDY
